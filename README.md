@@ -37,3 +37,7 @@ CUDA_VISIBLE_DEVICES=$FREE_GPU python predict.py --gpu
 4. predict.py assumes an input file in .json format. See [data/mini.sprl](data/mini.sprl)
 for an example. Output is identical .json structure, with additional field for
 SPR label predictions.
+
+## Errata
+
+An earlier version of this paper contained transcription errors in Appendex Tables 7 and 8. Please consult the most recent version of the paper on [arxiv.org](https://arxiv.org) for the corrected version.
